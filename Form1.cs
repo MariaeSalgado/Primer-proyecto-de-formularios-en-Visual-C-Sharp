@@ -16,5 +16,15 @@ namespace Primer_proyecto_de_formularios_en_Visual_C_Sharp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Primer proyecto formulario";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
